@@ -1,0 +1,26 @@
+--테이블 완전 삭제
+drop table TestTable;
+-- 테이블 생성
+create table TestTable (
+   id integer primary key,
+   name varchar(30) not null,
+   description varchar(100)
+);
+/*
+주석
+*/
+-- 주석주석주석주석주석주석
+--데이터 넣기
+insert into TestTable (id, name, description) values (1,'jhj','jhj-description');
+insert into TestTable values(2, 'kk','kk-description');
+--TestTable의 전체 데이터 조회
+select * from TestTable;
+--TestTable의 id가 1인 데이터 조회
+select * from testtable where id = 1;
+-- TestTable 모든 row의 name를 'updated'로 업데이트 하기
+update TestTable set name='updated'
+select * from TestTable;
+--TestTable id 2번에 해당하는 name을 'jhj'로 업데이트 하기
+update TestTable set name='jhj' where id = 2;
+-- TestTable id 1번 row 삭제 하기
+delete from TestTable where id = 1;
