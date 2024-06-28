@@ -16,5 +16,8 @@ public class ListSort {
         for(String s : list) {
             System.out.print(s + ",");
         }
+        System.out.println();
+        DefaultObject dobj = new DefaultObject();
+        
     }
 }
