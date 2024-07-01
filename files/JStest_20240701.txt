@@ -1,0 +1,140 @@
+let condition1 = false;
+let condition2 = true;
+let value = condition1 ? 'condition이 참' : condition2 ? 'condition2가 참' : '둘 다 거짓';
+value;
+'condition2가 참'
+alert('1번 줄\n 2번 줄\n 3번 줄');
+undefined
+alert('1번 줄 \n 2번 줄 \n\n 4번 줄');
+undefined
+alert('문자열' + '합치기');
+undefined
+let str = '';
+str = ('문자열' + '합' + '치' + '기');
+'문자열합치기'
+str;
+'문자열합치기'
+str = ('문자열이 긴 경우에는' + ' 문자열을' + ' 나눈 뒤' + ' 다시 합칩니다.');
+'문자열이 긴 경우에는 문자열을 나눈 뒤 다시 합칩니다.'
+let int = 0;
+undefined
+int = 5.04;
+5.04
+int = int * 1000;
+int = int / 3;
+int = int / 1000;
+1.68
+typeof int;
+'number'
+typeof '1.68';
+'string'
+int = '1.68';
+'1.68'
+parseFloat(int);
+1.68
+int = '6';
+'6'
+parseInt(int);
+6
+int = '3.015';
+'3.015'
+Number(int);
+3.015
+1 + 2;
+3
+6 - 10 ;
+-4
+3 * 4 ;
+12
+6 / 4;
+1.5
+6 % 5;
+1
+2 / 0;
+Infinity
+typeof Infinity;
+'number'
+Infinity + 100;
+Infinity
+ Infinity + Infinity
+Infinity
+int = '문자열' + 1;
+'문자열1'
+int = 1 + '문자'
+'1문자'
+int = 1 + '문자';
+'1문자'
+0.5 + 0.5;
+1
+0.1 + 0.2;
+0.30000000000000004
+let int1 = 0.1;
+undefined
+let int2 = 0.2;
+undefined
+const r = [1,2,3,4,5].reduce((a,c) => {
+    a[c] = c*10;
+    return a;
+}, {});
+console.log(r);
+VM2360:5 {1: 10, 2: 20, 3: 30, 4: 40, 5: 50}
+undefined
+int1 = int1 * 10;
+int2 = int2 * 10;
+let result = int1 + int2;
+result = result / 10;
+0.3
+'abc' < 5;
+false
+'abc' < '5';
+false
+'a'.charCodeAt();
+97
+'A'.charCodeAt();
+65
+'0' == 0;
+true
+1<2 && 2>1;
+true
+10<11 || 11<10;
+true
+10>11 || 11>20;
+false
+!true;
+false
+20 > 10 && 30 > 20;
+true
+5 + 4 * 3 === 27;
+false
+(5+4) * 3 === 27;
+true
+typeof undefined;
+'undefined'
+true == undefined;
+false
+false == undefined;
+false
+!!undefined;
+false
+false == !!undefined;
+true
+undefined == null;
+true
+typeof null;
+'object'
+let total = 5000 + 8000 + 1000+ 9000;
+undefined
+total;
+23000
+console.log(total);
+VM3792:1 23000
+undefined
+alert(total);
+undefined
+int1 = 0;
+0
+while(int1 < 5){
+    int1++;
+    alert(int1 + "번쨰 줄\n");
+}
+undefined
